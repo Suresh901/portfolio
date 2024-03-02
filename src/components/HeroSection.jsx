@@ -19,9 +19,11 @@ const HeroSection = () => {
                         </span>
                         .{" "}Working towards creating responsive design.
                     </p>
-                    <button className="text-neutral-100 font-semibold px-5 py-[0.6rem] bg-teal-600 rounded shadow hover:bg-teal-700 mr-5">
-                        Download CV
-                    </button>
+                    <a href='Suresh_CV.pdf' download>
+                        <button className="text-neutral-100 font-semibold px-5 py-[0.6rem] bg-teal-600 rounded shadow hover:bg-teal-700 mr-5">
+                            Download CV
+                        </button>
+                    </a>
                     <Link
                         to="projects"
                         className="text-neutral-100 font-semibold px-6 py-[0.7rem] bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
