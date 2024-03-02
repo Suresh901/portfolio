@@ -2,6 +2,8 @@
 import "./globals.css";
 import Navbar from '@/components/Navbar'
 import { ThemeProvider } from 'next-themes'
+import Head from "./head";
+
 
 
 export default function RootLayout({
@@ -13,6 +15,7 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body>
+        <Head />
         <div className="">
           <ThemeProvider enableSystem={true} attribute="class">
             <Navbar />
