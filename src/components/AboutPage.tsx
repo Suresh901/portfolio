@@ -24,14 +24,14 @@ const AboutPage = () => {
                         </p>
                         <br />
                         <p>
-                            I graduated from university of sunderland in 2023
+                            I graduated from ISMT college which  with Unihas affilation versity of Sunderland
                             with a BS in Computer System Engineering and have been working in the
                             field ever since.
                         </p>
                         <br />
                         <p>
                             I have a wide range of hobbies and passions that keep me busy.
-                            From reading, playing sports, traveling, to making YouTube videos,
+                            From reading, playing sports, traveling, to watching YouTube videos,
                             I am always seeking new experiences and love to keep myself
                             engaged and learning new things.
                         </p>
