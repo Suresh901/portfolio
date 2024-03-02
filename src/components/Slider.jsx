@@ -64,20 +64,20 @@ const SliderComp = () => {
 
     return (
 
-        <div className="pb-10 ">
+        <div className="pb-10 mx-2 md:mx-5 lg:mx-10 relative">
             <div className={`flex py-2 items-center relative`}>
-                <ChevronLeftIcon
+                {/* <ChevronLeftIcon
                     onClick={() => slidePrev()}
                     className={
-                        "flex items-center justify-center bg-slider p-2 rounded-full h-8 w-8  text-black text-lg cursor-pointer absolute z-10 left-[-20px] top-[6rem] md:top-[9rem] "
+                        "flex items-center justify-center bg-teal-600 p-2 rounded-full h-8 w-8  text-white text-lg cursor-pointer absolute z-10 left-[-20px] top-[6rem] "
                     }
                 ></ChevronLeftIcon>
                 <ChevronRightIcon
                     onClick={() => slideNext()}
                     className={
-                        "flex items-center justify-center bg-slider p-2 rounded-full h-8 w-8  text-black text-lg cursor-pointer absolute z-10 right-[-20px] top-[6rem] md:top-[9rem]"
+                        "flex items-center justify-center bg-teal-600 p-2 rounded-full h-8 w-8  text-white text-lg cursor-pointer absolute z-10 right-[-20px] top-[6rem] "
                     }
-                ></ChevronRightIcon>
+                ></ChevronRightIcon> */}
             </div>
 
             <Slider ref={slider} {...settings}>
